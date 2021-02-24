@@ -48,7 +48,7 @@ html {
 main {
   background-color: #3f3f3f;
   .chat-column {
-    background-color: #777676;
+    background-color: #000;
   }
   & > div {
     color: #eee;
@@ -58,7 +58,7 @@ main {
   }
 
   .actions-column {
-    animation: shadowIn 1s cubic-bezier(0.455, 0.03, 0.515, 0.955) alternate;
+    animation: shadowIn 0.5s ease-in alternate;
     @keyframes shadowIn {
       0% {
         transform: translateX(-0.5rem);

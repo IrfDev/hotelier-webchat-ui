@@ -25,15 +25,18 @@
     }
     .__icon {
       cursor: pointer;
-      width: 2.2rem;
       stroke: #000;
       transition: all ease-out 0.5s;
       stroke-width: 1.7;
+      width: 1.7rem;
+      @media screen and (min-width: 800px) {
+        width: 2.2rem;
+      }
       &:hover {
         transform: scale(1.04);
         transition: all ease-in 0.4s;
         stroke: $alpha-color;
-        stroke-width: 2;
+        stroke-width: 2.2;
       }
     }
 
